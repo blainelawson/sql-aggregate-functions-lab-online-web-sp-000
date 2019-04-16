@@ -1,8 +1,5 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks.
-require "Pry"
-
 def highest_student_gpa
-  binding.pry
   "SELECT MAXIMUM(gpa) FROM @db;"
 end
 
